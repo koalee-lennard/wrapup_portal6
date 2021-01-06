@@ -1,0 +1,138 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: PT Sans;
+  color: #FFFFFF;
+  font-size: 17px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #232323;
+  text-align: center;
+  background-image: url(CHARCOAL\ OVERLAY.png);
+  background-size: 1920px;
+  background-repeat:no-repeat;
+  max-width: 1920px;
+}
+
+.start-screen{
+  justify-content: center;
+  font-style: bold;
+}
+
+.start-text {
+  position: center;
+  text-align: center
+}
+
+.container {
+  width: 540px;
+  max-width: 80%;
+  background-color: transparent;
+  padding: 10px;
+  border: none
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.numbers {
+  margin-bottom: 10px;
+}
+
+.btn {
+  outline: none;
+  height: 101;
+  width: 260;
+  background-image: url(Board.png);
+  background-color: transparent;
+  background-size: 260px 101px;
+  background-repeat: no-repeat;
+  padding-left: 27px;
+  padding-top: 12px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  border: none;
+}
+
+#robot-start{
+  position: center;
+}
+
+.btn:hover {
+  border-color: transparent;
+}
+
+.btn.correct {
+  background-image: url(CorrectBoard.png);
+  background-size: 260px 101px;
+  background-color: transparent;
+  background-repeat: no-repeat
+}
+
+.btn.wrong {
+  background-image: url(WrongBoard.png);
+  background-size: 260px 101px;
+  background-color: transparent;
+  background-repeat: no-repeat
+}
+
+.btn:focus{
+  outline:none
+}
+
+.start-btn {
+  margin-top: 10px;
+  height: 35px;
+  width: 120px;
+}
+
+.next-btn {
+  margin-top: 10px;
+  height: 35px;
+  width: 120px;
+}
+
+.restart-btn {
+  margin-top: 10px;
+  height: 72px;
+  width: 200px;
+}
+
+.return-btn {
+  margin-top: 10px;
+  height: 72px;
+  width: 200px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display:none;
+}
+
+.counter{
+  background-image: url(Purple\ Button.png);
+  background-size: 120px 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: none;
+}
+
+.question-title{
+  margin-bottom: 10px;
+}

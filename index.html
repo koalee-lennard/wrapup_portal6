@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal 6 Wrap Up</title>
+  <link href="styles.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+
+<div class="container">
+  <div class=counter>
+    <span id="right-answers" class='hide hide-end'></span>
+  </div>
+  <div id="question-container" class="hide">
+    <div class="question-title" id="question-title">
+      <img src="question-title.png" id="question-title" alt="question-title" class="question-title" width="160" height="42">
+    </div>
+    <div class="questions-and-answers" id="questions-and-answers">
+      <div id="question">Question</div>
+      <div id="answer-buttons" class="btn-grid">
+        <button class="answer-btn btn">Answer 1</button>
+        <button class="answer-btn btn">Answer 2</button>
+        <button class="answer-btn btn">Answer 3</button>
+        <button class="answer-btn btn">Answer 4</button>
+      </div>
+    </div>
+  </div>
+  <div class="controls">
+    <div class='start-screen'>
+      <img src='RobotBoard.png' id='robot-start' alt="Robot Board" width="400 px" height="190 px">
+      <div id='start-text' class='start-text'>
+        <p>There will be a series of 10 questions all about the Grading System. Answering this quiz with a score of <strong>at least 6 and above</strong> will reward you a secret to access the next portal.</p>
+      </div>
+      <input type="image" src="StartButton.png" name="start-btn" id="start-btn" class="start-btn">
+    </div>
+    <div>
+      <div class="end-page">
+        <img src='PassPage.png' id="pass-page" alt="Pass Page" class="hide" width="600 px" height="254 px" >
+        <img src='FailPage.png' id="fail-page" alt="Fail Page" class="hide" width="600 px" height="254 px" >
+        <input type="image" src="RestartButton.png" name="restart-btn" id="restart-btn" class="restart-btn hide">
+        <input type="image" src="ReturnButton.png" name="return-btn" id="return-btn" class="return-btn hide">
+      </div>
+    </div>
+    <input type="image" src="NextButton.png" name="next-btn" id="next-btn" class="next-btn hide">
+  </div>
+</div>
+      
+</html>
